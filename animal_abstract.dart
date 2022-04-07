@@ -1,3 +1,11 @@
+// main(){
+// const hour = DateTime.now().hour
+//print(hour)}
+//the error in the code is the const datatype 
+//because we can't use the method 'DateTime.now()' that keeps updating itself 
+//and assigned its value at the compile time 
+//and make it a constant
+ 
 abstract class Animal {
   void printName();
   void printSound();
